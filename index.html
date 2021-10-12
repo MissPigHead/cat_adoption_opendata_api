@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="流浪貓咪認養平台，提供公立收容所貓咪資料(資料來源:農委會opendata)，以及收容所聯絡方式，歡迎參考貓咪資訊後，直接聯繫收容所進行認養" name="description">
+    <meta content="cat adoption, 貓咪領養, 流浪貓, 流浪動物之家" name="keywords">
+    <title>領我回家 Take me home | 流浪貓認養平台</title>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="plugin/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugin/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="plugin/custom.css">
+    <!-- script -->
+    <script src="plugin/jquery-3.5.1.min.js"></script>
+    <script src="plugin/jquery.easing.min.js"></script>
+    <script src="plugin/owlcarousel/owl.carousel.min.js"></script>
+    <script src="plugin/typed.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y10Y0E0PG5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-Y10Y0E0PG5');
+    </script>
+  </head>
+
+  <body>
+    <script>
+      // init AOS.js
+      AOS.init();
+    </script>
+    <header>
+      <div
+        class="d-flex flex-column flex-md-row justify-content-between align-items-baseline align-items-md-center py-2 px-3 px-lg-5 fixed-top"
+        id="header">
+        <div class="d-flex justify-content-between" id="topbarnd">
+          <a href="index.html" class="d-flex align-items-center">
+            <img src="/img/00cat-256.png" width="50px" alt="logo" class="px-2">
+            <div>
+              <div class="d-inline-block brand font-weight-bold c-g-4">領我回家 </div>
+              <div class="d-inline-block sub">
+                <span class="c-p-5">Take</span>
+                <span class="c-p-8">Me</span>
+                <span class="c-p-5">Home</span>
+              </div>
+            </div>
+            <!-- <span class="m-0 py-2 ">  -->
+          </a>
+          <div class="d-flex d-md-none" aria-label="切換導航欄" id="nav-toggle">
+            <div class="toggle-line-1"></div>
+            <div class="toggle-line-2"></div>
+            <div class="toggle-line-3"></div>
+          </div>
+        </div>
+        <ul class="nav flex-column flex-md-row justify-content-md-end pt-3 pt-sm-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">回首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cats">最新收容貓咪</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#shelter">收容所資訊</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">聯絡站長</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="banner">
+        <div class="container py-3">
+          <div class="row justify-content-center my-3 topic" data-aos="flip-up" data-aos-duration="1200">
+            <span>浪貓認養平台</span>
+          </div>
+          <div class="row justify-content-center mb-2">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 c-r-1 font-weight-bold typed1">
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="owl-carousel owl-theme">
+              <div class="item"><img src="/img/banner/01.JPG" alt="cat pic"></div>
+              <div class="item"><img src="/img/banner/02.jpeg" alt="cat pic"></div>
+              <div class="item"><img src="/img/banner/03.JPG" alt="cat pic"></div>
+              <div class="item"><img src="/img/banner/04.jpg" alt="cat pic"></div>
+              <div class="item"><img src="/img/banner/05.jpg" alt="cat pic"></div>
+              <div class="item"><img src="/img/banner/06.JPG" alt="cat pic"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="cats">
+        <div class="container py-3">
+          <div class="row justify-content-center my-3 topic" data-aos="flip-up" data-aos-duration="1200">
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+            <span>最新收容貓咪</span>
+          </div>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4" id="newCats">
+            <!-- 主要card 群-->
+          </div>
+          <div class="row justify-content-center align-items-center" id="catModal">
+            <!-- Modal -->
+          </div>
+          <div class="row justify-content-center">
+            <div data-aos="fade-up" data-aos-offset="500" data-aos-easing="ease-in-sine" class="c-r-1 font-weight-bold"
+              id="moreCats" onclick="addCatCard(12)">更多貓咪</div>
+          </div>
+        </div>
+      </section>
+      <section id="shelter">
+        <div class="container py-3">
+          <div class="row justify-content-center my-3 topic" data-aos="flip-up" data-aos-duration="1200">
+            <span>收容所資訊</span>
+          </div>
+          <div class="row flex-column align-items-center justify-content-center">
+            <p>...資料建立中... </p>
+            <p>1. 使用select選擇區域後，利用ajax取得該區域收容所清單 <br>2. 選取查詢的收容所，自動帶入地圖和聯絡細節，並可撥打電話</p>
+          </div>
+          <form class="row justify-content-center py-3">
+            <div class="input-group col-12 col-sm-5 col-md-6 col-lg-4">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="area">區域</label>
+              </div>
+              <select class="custom-select" name="area" id="area">
+                <option value="0">全部</option>
+                <option value="1">北部</option>
+                <option value="2">中部</option>
+                <option value="3">南部</option>
+                <option value="4">東部</option>
+                <option value="5">離島</option>
+              </select>
+            </div>
+            <div class="input-group col-12 col-sm-7 col-md-6 col-lg-5">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="area">收容所</label>
+              </div>
+              <select class="custom-select" name="area" id="shelter_name">
+                <option value="" selected disabled>欲查詢收容所名稱</option>
+                <option value="PS00000001" class="a1">臺北市動物之家</option>
+                <option value="PS00000002" class="a1">基隆市寵物銀行</option>
+                <option value="PS00000003" class="a1">新北市板橋區公立動物之家</option>
+                <option value="PS00000004" class="a1">新北市新店區公立動物之家</option>
+                <option value="PS00000005" class="a1">新北市中和區公立動物之家</option>
+                <option value="PS00000006" class="a1">新北市淡水區公立動物之家</option>
+                <option value="PS00000007" class="a1">新北市瑞芳區公立動物之家</option>
+                <option value="PS00000008" class="a1">新北市五股區公立動物之家</option>
+                <option value="PS00000009" class="a1">新北市八里區公立動物之家</option>
+                <option value="PS00000010" class="a1">新北市三芝區公立動物之家</option>
+                <option value="PS00000011" class="a1">桃園市動物保護教育園區</option>
+                <option value="PS00000012" class="a1">新竹市動物保護教育園區</option>
+                <option value="PS00000013" class="a1">新竹縣公立動物收容所</option>
+                <option value="PS00000019" class="a4">宜蘭縣流浪動物中途之家</option>
+                <option value="PS00000020" class="a4">花蓮縣流浪犬中途之家</option>
+                <option value="PS00000021" class="a4">臺東縣動物收容中心</option>
+                <option value="PS00000014" class="a2">苗栗縣生態保育教育中心(動物收容所)</option>
+                <option value="PS00000015" class="a2">臺中市動物之家南屯園區</option>
+                <option value="PS00000016" class="a2">臺中市動物之家后里園區(改建中)</option>
+                <option value="PS00000017" class="a2">彰化縣流浪狗中途之家</option>
+                <option value="PS00000018" class="a2">公立南投動物收容所</option>
+                <option value="PS00000022" class="a3">嘉義市動物保護教育園區</option>
+                <option value="PS00000023" class="a3">嘉義縣流浪犬中途之家</option>
+                <option value="PS00000024" class="a3">臺南市動物之家灣裡站</option>
+                <option value="PS00000025" class="a3">臺南市動物之家善化站</option>
+                <option value="PS00000026" class="a3">高雄市壽山動物保護教育園區</option>
+                <option value="PS00000027" class="a3">高雄市燕巢動物保護關愛園區</option>
+                <option value="PS00000028" class="a3">屏東縣公立犬貓中途之家</option>
+                <option value="PS00000029" class="a5">連江縣流浪犬收容中心</option>
+                <option value="PS00000030" class="a5">金門縣動物收容中心</option>
+                <option value="PS00000031" class="a5">澎湖縣流浪動物收容中心</option>
+              </select>
+            </div>
+          </form>
+          <div class="row justify-content-center align-items-stretch">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="row justify-content-center my-1 shelterT" data-aos="fade-right" data-aos-duration="1200">
+                <span>臺北市動物之家</span>
+              </div>
+              <img src="/img/shelter/PS00000001.jpg" width="100%">
+              <table class="my-3 c-o-2">
+                <tr>
+                  <td>地址</td>
+                  <td class="shelterAdd">臺北市內湖區潭美街852號</td>
+                </tr>
+                <tr>
+                  <td>電話</td>
+                  <td class="shelterTel"><a href="tel:+886287913254">02-87913254</a><br><a href="tel:+886287913255">02-87913255</a></td>
+                </tr>
+                <tr>
+                  <td>參觀時間</td>
+                  <td class="shelterTime">週二至週日 上午10:00~12:30 下午1:30~4:00</td>
+                </tr>
+                <tr>
+                  <td>官方連結</td>
+                  <td class="shelterURL"><a href="https://animal.coa.gov.tw/Frontend/PublicShelter/Detail/PS00000001" target="_blank">動物保護資訊網-<span>臺北市動物之家</span></a></td>
+                </tr>
+              </table>
+            </div>
+            <iframe class="col-12 col-md-6 col-lg-5 align-self-stretch"
+            src="https://www.google.com/maps/embed/v1/place?q=25.063111+121.608935&key=AIzaSyDA7NPA6wZbyvmBhZ5_V0-O4mhHV6xYkdE"
+            style="border:0" loading="lazy" allowfullscreen
+            tabindex="0"></iframe>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container py-3">
+          <div class="row justify-content-center my-3 topic" data-aos="flip-up" data-aos-duration="1200">
+            <span>聯絡站長</span>
+          </div>
+          <div class="row justify-content-center">
+            <div class="social d-flex p-2 justify-content-between">
+              <a href="https://github.com/MissPigHead" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/lmisspighead/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://codepen.io/misspighead" target="_blank"><i class="fab fa-codepen"></i></a>
+            </div>
+          </div>
+          <div class="row justify-content-center py-3">
+            <div class="col-10">
+              節錄自《行路遠方，與貓相愛的練習曲：一個貓痴攝影師橫跨歐、亞、非，繞地球兩圈半的追貓紀行》
+              <p>◎人貓和平相處、共生共享；貓療癒了我們，我們更要盡心照顧貓</p>
+              <p>
+                躺在遊人腿上呼嚕嚕的瞌睡貓、亦步亦趨守護著不良於行的老人的侍衛貓、擠到奶奶面前和小孫女爭寵的撒嬌貓……作者遊歷了30多座城市，見證許多人貓共處的感動時刻，那些街貓為嚴肅生活帶來暖意，除了溫飽，牠們更多時候需要人類關愛的觸撫。
+              </p>
+              <p>◆「喵喵喵，Coffee、tea or me？」圓呼呼的小毛球，是招攬生意的小幫手</p>
+              <p>
+                日本福岡中洲的冰淇淋小店，貓店長正親切地招呼客人：「來買冰淇淋喔！喵喵喵！」臺灣淡水「有河Book」的慵懶貓、吃完飯就快閃的速食貓，吸引許多愛貓、愛書人前去朝聖；猴硐「217咖啡館」更有超人氣模特兒貓，可愛模樣讓人情不自禁走進店家，攬客技術一流！
+              </p>
+              <p>◆「我們今天吃什麼？」世界各地的街貓，都要感謝貓老爹、貓老媽</p>
+              <p>
+                無論在哪裡，都有不畏風雨、定時定點餵食貓族的貓老爹、貓老媽，就算拖著行動不便的身軀，他們也堅持貓和人一樣不能挨餓，並為牠們建造遮風避雨的住所，甚至霸氣地向路人申明對街貓的「所有權」──這一切都是出自對流浪動物一份關懷的愛。
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center py-3">
+            <div class="col-10">
+              註明如此觀看朋友變化大力如此黑色一看攻擊開展心中，說過態度不是很衛生不出賺錢上次機制剛才小遊戲網易，遊客保險真是預測令人，商城不可能交給之下不能下載，大多數人間精選對方處理未來場所，現有快速適用農村無奈能夠，積分榮譽廠商結束作家當地感謝一笑，真正對話，當。
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="text-center text-sm-right py-2 small" id="footer">
+        <p class="col my-1">資料來源:行政院農委會 | 最後更新:2021/10/12</p>
+        <p class="col my-1">Copyright &copy;&nbsp;Lingling Chang a.k.a. <strong>MissPigHead</strong> 2021</p>
+      </div>
+      <div id="scrolltop" class="position-fixed shown">
+        <a class="d-inline-block" href="#"><i class="fas fa-angle-double-up fa-2x"></i></a>
+      </div>
+    </footer>
+    <script src="plugin/custom.js"></script>
+  </body>
+
+</html>
